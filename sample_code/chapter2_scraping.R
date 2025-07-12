@@ -92,7 +92,7 @@ str(dat)
 
 ## ツイートの収集
 
-install.packages("rtweet")
+# install.packages("rtweet")
 # rtweetパッケージをロード
 library(rtweet)
 
@@ -210,3 +210,4 @@ webElem$clickElement()
 
 # ブラウザを閉じる
 remDr$close()
+
